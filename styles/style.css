@@ -1,0 +1,81 @@
+.main-container {
+    height: 100vh;
+    width: 100vw;
+    background-color: aquamarine;
+}
+
+.header, .footer {
+    height: 15%;
+    width: 100%;
+    background-color: azure;
+    display: flex;
+}
+
+.grid-cntnr {
+    height: 70%;
+    width: 100%;
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.player-cntnr {
+    height: 100%;
+    width: 70%;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.reset {
+    height: 100%;
+    width: 30%;
+    background-color: cyan;
+}
+
+.btn-cntnr {
+    height: 100%;
+    width: 30%;
+    background-color: cadetblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-cntnr button {
+    height: 30%;
+    width: 30%;
+    font-size: x-large;
+}
+
+.game-board {
+    height: 70%;
+    width: 27%;
+    background-color: cornsilk;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+
+.game-board div {
+    background-color: darkgrey;
+}
+
+.right {
+    border-right: black 2px solid;
+}
+
+.bottom {
+    border-bottom: black 2px solid;
+}
+
+.left {
+    border-left: black 2px solid;
+}
+
+.top {
+    border-top: black 2px solid;
+
+}
